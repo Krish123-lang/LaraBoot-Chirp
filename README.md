@@ -1,6 +1,6 @@
 1. Initating Project
 
-=== === === === === === === CREATING CHIRPS === === === === === === ===
+## === === === === === === === CREATING CHIRPS === === === === === === ===
 
 2. Create Model, Migrations and controllers => php artisan make:model -mrc Chirp
 
@@ -23,6 +23,19 @@
     => `php artisan tinker`
 
 
-=== === === === === === === SHOWING CHIRPS === === === === === === ===
+## === === === === === === === SHOWING CHIRPS === === === === === === ===
 
 ** All in code
+
+## === === === === === === === EDITING CHIRPS === === === === === === ===
+Verb	    |    URI	                |        Action	    |    Route Name
+GET	        |    /chirps	            |        index	    |    chirps.index
+POST	    |    /chirps	            |        store	    |    chirps.store
+GET	        |    /chirps/{chirp}/edit	|        edit	    |    chirps.edit
+PUT/PATCH	|    /chirps/{chirp}	    |        update	    |    chirps.update
+
+
+## *  Authorization
+`php artisan make:policy ChirpPolicy --model=Chirp` => This will create a policy class at app/Policies/ChirpPolicy.php which we can update to specify that only the author is authorized to update a Chirp.
+
+## === === === === === === === DELETING CHIRPS === === === === === === ===
