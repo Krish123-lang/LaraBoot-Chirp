@@ -20,7 +20,8 @@
                         <div class="flex justify-between items-center">
                             <div>
                                 <span class="text-gray-800">{{ $chirp->user->name }}</span>
-                                <small class="ml-2 text-sm text-gray-600">{{ $chirp->created_at->format('j M Y, g:i a') }}</small>
+                                <small
+                                    class="ml-2 text-sm text-gray-600">{{ $chirp->created_at->format('j M Y, g:i a') }}</small>
 
                                 {{-- Linking to Edit Page --}}
                                 @unless ($chirp->created_at->eq($chirp->updated_at))
@@ -43,6 +44,17 @@
                                         <x-dropdown-link :href="route('chirps.edit', $chirp)">
                                             {{ __('Edit') }}
                                         </x-dropdown-link>
+
+                                        {{-- Deleting Chirps --}}
+                                        <form method="POST" action="{{ route('chirps.destroy', $chirp) }}">
+                                            @csrf
+                                            @method('delete')
+                                            <x-dropdown-link :href="route('chirps.destroy', $chirp)"
+                                                onclick="event.preventDefault(); this.closest('form').submit();">
+                                                {{ __('Delete') }}
+                                            </x-dropdown-link>
+                                        </form>
+
                                     </x-slot>
                                 </x-dropdown>
                             @endif
