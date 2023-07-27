@@ -45,3 +45,7 @@ PUT/PATCH	|    /chirps/{chirp}	    |        update	    |    chirps.update
 `php artisan make:policy ChirpPolicy --model=Chirp` => This will create a policy class at app/Policies/ChirpPolicy.php which we can update to specify that only the author is authorized to update a Chirp.
 
 ## === === === === === === === DELETING CHIRPS === === === === === === ===
+All  in code
+
+## === === === === === === === NOTIFICATIONS & EVENTS === === === === === === ===
+
