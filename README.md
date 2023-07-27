@@ -59,3 +59,6 @@ c) Creating an event listener
 `php artisan make:listener SendChirpCreatedNotifications --event=ChirpCreated`
 
 => The new listener will be placed at app/Listeners/SendChirpCreatedNotifications.php
+
+
+![Screenshot (126)](https://github.com/Krish123-lang/LaraBoot-Chirp/assets/56486342/0e781dbc-0a22-4f16-bb81-2380e1a69d2b)
