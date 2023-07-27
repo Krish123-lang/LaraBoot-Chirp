@@ -60,5 +60,21 @@ c) Creating an event listener
 
 => The new listener will be placed at app/Listeners/SendChirpCreatedNotifications.php
 
+## Installation
+<ul>
+    <li>Clone the Repo: <br> </li>
+    <li style=""> > git clone https://github.com/Krish123-lang/Laravel-CRUD.git</li>
+    <li> > cd Laravel-CRUD</li>
+    <li> > composer install or composer update</li>
+    <li> > cp .env.example .env</li>
+    <li> > Set up .env file</li>
+    <li> > php artisan key:generate</li>
+    <li> > php artisan storage:link</li>
+    <li> > php artisan migrate</li>
+    <li> > php artisan migrate:fresh --seed</li>
+    <li> > php artisan serve</li>
+    <li> <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> </li>
+</ul>
+
 
 ![Screenshot (126)](https://github.com/Krish123-lang/LaraBoot-Chirp/assets/56486342/0e781dbc-0a22-4f16-bb81-2380e1a69d2b)
