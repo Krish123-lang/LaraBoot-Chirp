@@ -49,3 +49,13 @@ All  in code
 
 ## === === === === === === === NOTIFICATIONS & EVENTS === === === === === === ===
 
+a) `php artisan make:notification NewChirp`
+=> This will create a new notification at app/Notifications/NewChirp.php
+
+b) Creating an Event
+`php artisan make:event ChirpCreated`
+
+c) Creating an event listener
+`php artisan make:listener SendChirpCreatedNotifications --event=ChirpCreated`
+
+=> The new listener will be placed at app/Listeners/SendChirpCreatedNotifications.php
