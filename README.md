@@ -63,8 +63,8 @@ c) Creating an event listener
 ## Installation
 <ul>
     <li>Clone the Repo: <br> </li>
-    <li style=""> > git clone https://github.com/Krish123-lang/Laravel-CRUD.git</li>
-    <li> > cd Laravel-CRUD</li>
+    <li style=""> > git clone https://github.com/Krish123-lang/LaraBoot-Chirp.git</li>
+    <li> > cd LaraBoot-Chirp</li>
     <li> > composer install or composer update</li>
     <li> > cp .env.example .env</li>
     <li> > Set up .env file</li>
