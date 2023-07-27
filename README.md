@@ -22,3 +22,7 @@
 
     => `php artisan tinker`
 
+
+=== === === === === === === SHOWING CHIRPS === === === === === === ===
+
+** All in code
