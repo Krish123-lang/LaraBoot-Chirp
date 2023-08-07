@@ -352,3 +352,9 @@ protected $listen = [
         ],
     ];
 ```
+![1](https://github.com/Krish123-lang/LaraBoot-Chirp/assets/56486342/8d1659e9-b53f-4f69-a80f-6451c8bb473b)
+
+![edit_delete_optinos](https://github.com/Krish123-lang/LaraBoot-Chirp/assets/56486342/2f46d7e0-7956-4067-8faf-24f1e1852aba)
+
+![notification_email](https://github.com/Krish123-lang/LaraBoot-Chirp/assets/56486342/66039fbf-7c24-4788-8e5a-4134f8491c1a)
+
