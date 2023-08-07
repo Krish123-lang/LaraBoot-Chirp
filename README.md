@@ -1,6 +1,13 @@
 # Creating Chirps
 ### create a model, migration, and resource controller
 1. `php artisan make:model -mrc Chirp`
+2. Install laravel breeze by:
+```
+> composer require laravel/breeze --dev
+> php artisan breeze:install blade
+> npm run dev
+> php artisan migrate
+```
 ### Routing
 2. > web.php
 ```
